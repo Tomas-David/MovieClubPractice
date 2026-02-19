@@ -67,7 +67,8 @@ Odstraní film. Pokud film neexistuje, vrátí `404 Not Found`. Vrátí `204 No 
 - Pro sledování hlasů použij druhý seznam: `List<(int MovieId, string Voter)>`.
 - API testuj přes Scalar UI, které se spustí automaticky na `/scalar`.
 - Pozor na konflikt routování mezi `/unwatched` a `/{id}`.
-  
+- Zadaní je připraveno pro SqLite a je potřeba udělat migraci
+
 
 
 
