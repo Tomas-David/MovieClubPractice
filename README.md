@@ -2,7 +2,7 @@
 
 ## Popis
 
-Vytvoř REST API v ASP.NET Core pro správu filmového klubu. Skupina přátel si hlasuje o tom, jaký film půjdou příště sléhat. Každý člen klubu může přidávat filmy a hlasovat pro ty, které chce vidět.
+Vytvoř REST API v ASP.NET Core (.NET 10) pro správu filmového klubu. Skupina přátel si hlasuje o tom, jaký film půjdou příště sléhat. Každý člen klubu může přidávat filmy a hlasovat pro ty, které chce vidět.
 
 ---
 
@@ -65,7 +65,9 @@ Odstraní film. Pokud film neexistuje, vrátí `404 Not Found`. Vrátí `204 No 
 
 - Data ukládej v paměti pomocí statického `List<Movie>` – databáze není potřeba.
 - Pro sledování hlasů použij druhý seznam: `List<(int MovieId, string Voter)>`.
-- API testuj přes Swagger UI, které se spustí automaticky na `/swagger`.
+- API testuj přes Scalar UI, které se spustí automaticky na `/scalar`.
 - Pozor na konflikt routování mezi `/unwatched` a `/{id}`.
+  
+
 
 
